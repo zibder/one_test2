@@ -1,0 +1,9 @@
+.popup__close-button_image {
+    right: -49px;
+}
+
+@media (max-width: 580px) {
+    .popup__close-button_image {
+        right: 0px;
+    }
+}

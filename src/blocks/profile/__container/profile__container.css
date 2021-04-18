@@ -1,0 +1,13 @@
+.profile__container {
+    position: relative;
+    border-radius: 50%;
+}
+
+.profile__container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
